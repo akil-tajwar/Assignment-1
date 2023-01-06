@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans;
+}
+
+
+
+/* Background & Headline */
+.headline{
+    text-align: right;
+    background-image: url("./media/banner3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head-elements{
+    padding: 250px;
+}
+.head-elements h1{
+    font-size: 80px;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.head-elements p{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.head-elements button{
+    font-size: 25px;
+    padding: 25px 30px;
+    border-radius: 7px;
+    color: #005fac;
+    border: none;
+    font-weight: bolder;
+}
+
+
+
+/* Past Mistakes */
+.failure-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.failure-list{
+    align-items: center;
+}
+.failure-list h2{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 250px 0 40px;
+}
+.failure-list p{
+    line-height: 35px;
+    color: #444343;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    color: #444343;
+    line-height: 35px;
+    font-size: 20px;
+}
+li i{
+    color: rgb(0, 192, 124);
+    padding-right: 20px;
+}
+
+
+
+/* My Plans */
+.plans{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+.plans h2{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 200px 0 50px;
+}
+.plan-elements{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-elements h3{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.plan-elements p{
+    font-size: 30px;
+    color: #737272;
+}
+.all-plans img{
+    padding-bottom: 10px;
+}
+
+
+/* Positive Mindset */
+.watch{
+    background-image: linear-gradient(to right, rgb(0, 95, 172, 1), rgb(0, 95, 172, 0.5), rgb(0, 95, 172, 0)), url("./media/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-left: 80px;
+    height: 320px;
+}
+.watch h2{
+    font-size: 50px;
+    padding: 55px 0 30px;
+    color: white;
+}
+.watch button{
+    border-radius: 7px;
+    padding: 20px 35px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    color: #005fac;
+    border: none;
+    font-weight: bolder;
+}
+
+
+
+/* Footer */
+.foot-back{
+    margin-top: 200px;
+    padding-top: 160px;
+    background-color: #151414;
+    color: white;
+}
+.foot-elements{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+.foot-elements h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.foot-elements p{
+    line-height: 35px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.foot-icons{
+    padding-bottom: 160px;
+}
+.foot-icons a{
+    padding-right: 25px;
+}
+.subscribe h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.subscribe input{
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px white solid;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+.subscribe button{
+    background-color: #005fac;
+    color: white;
+    padding: 20px 35px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
