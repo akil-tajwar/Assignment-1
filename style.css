@@ -54,6 +54,7 @@
     font-size: 50px;
     font-weight: bolder;
     padding: 250px 0 40px;
+    color: #005fac;
 }
 .failure-list p{
     line-height: 35px;
@@ -67,9 +68,32 @@ li{
     line-height: 35px;
     font-size: 20px;
 }
-li i{
+ul i{
     color: rgb(0, 192, 124);
     padding-right: 20px;
+}
+
+
+
+/* Daily Routine */
+.routine{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.routine h2{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 200px 0 40px;
+    color: #005fac;
+}
+.routine p{
+    line-height: 35px;
+    color: #444343;
+    padding-bottom: 20px;
+    font-size: 20px;
 }
 
 
@@ -84,7 +108,8 @@ li i{
 .plans h2{
     font-size: 50px;
     font-weight: bolder;
-    padding: 200px 0 50px;
+    padding: 100px 0 80px;
+    color: #005fac;
 }
 .plan-elements{
     display: flex;
@@ -93,6 +118,7 @@ li i{
 .plan-elements h3{
     font-size: 40px;
     padding-bottom: 10px;
+    color: rgb(1, 148, 97);
 }
 .plan-elements p{
     font-size: 30px;
@@ -101,6 +127,7 @@ li i{
 .all-plans img{
     padding-bottom: 10px;
 }
+
 
 
 /* Positive Mindset */
@@ -147,6 +174,7 @@ li i{
 .foot-elements h1{
     font-size: 60px;
     padding-bottom: 20px;
+    color: rgb(0, 192, 124);
 }
 .foot-elements p{
     line-height: 35px;
